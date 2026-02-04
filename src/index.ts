@@ -6,7 +6,7 @@
  */
 
 // Re-export everything from backend
-export * from './backend';
+export * from './backend/index.js';
 
 // Re-export frontend utilities
-export * from './frontend';
+export * from './frontend/index.js';

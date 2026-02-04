@@ -2,6 +2,7 @@
   "name": "@seed-drill/rutherford",
   "version": "1.0.0",
   "description": "Rutherford onboarding system for Cordelia - conversational user profile creation",
+  "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [

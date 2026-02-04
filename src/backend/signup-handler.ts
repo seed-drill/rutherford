@@ -6,7 +6,7 @@
  */
 
 import { createHash } from 'crypto';
-import { L1HotContextSchema } from './schema';
+import { L1HotContextSchema } from './schema.js';
 
 export interface SignupData {
   name: string;

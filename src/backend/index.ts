@@ -14,7 +14,7 @@ export {
   type StorageProvider,
   type CryptoProvider,
   type SessionStore,
-} from './signup-handler';
+} from './signup-handler.js';
 
 export {
   L1HotContextSchema,
@@ -33,4 +33,4 @@ export {
   type Ephemeral,
   type Integrity,
   type Vessel,
-} from './schema';
+} from './schema.js';
