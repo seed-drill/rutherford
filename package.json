@@ -1,0 +1,41 @@
+{
+  "name": "@seed-drill/rutherford",
+  "version": "1.0.0",
+  "description": "Rutherford onboarding system for Cordelia - conversational user profile creation",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "rebuild": "npm run clean && npm run build",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run rebuild"
+  },
+  "keywords": [
+    "cordelia",
+    "onboarding",
+    "profile",
+    "conversational-ui"
+  ],
+  "author": "Seed Drill",
+  "license": "MIT",
+  "peerDependencies": {
+    "zod": "^3.22.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.3.0",
+    "zod": "^3.22.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seed-drill/rutherford.git"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
