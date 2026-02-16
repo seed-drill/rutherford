@@ -554,7 +554,7 @@ Once uploaded, refresh this page to see your profile!`, 'rutherford', true);
 async function handleBareMode() {
   addMessage("A minimalist! I respect that. Creating a bare account for you...", 'rutherford');
 
-  userData.name = authData.github_login;
+  userData.name = authData.github_login || authData.username;
   userData.org_name = 'independent';
   userData.org_role = 'user';
 
