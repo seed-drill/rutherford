@@ -10,7 +10,7 @@
     "src"
   ],
   "scripts": {
-    "build": "tsc",
+    "build": "tsc && cp src/frontend/genesis.html src/frontend/genesis.js dist/frontend/",
     "clean": "rm -rf dist",
     "rebuild": "npm run clean && npm run build",
     "typecheck": "tsc --noEmit",
